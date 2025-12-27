@@ -1,0 +1,30 @@
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: white;
+  width: 400px;
+  margin: 100px auto;
+  border-radius: 6px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.modal-body {
+  padding: 15px;
+}
+
+.close-modal {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
